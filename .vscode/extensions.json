@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "mechatroner.rainbow-csv",
+    "ms-python.black-formatter",
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "ms-toolsai.vscode-jupyter-powertoys",
+    "tamasfe.even-better-toml"
+  ],
+  "unwantedRecommendations": [
+    "ms-vscode.makefile-tools"
+  ]
+}

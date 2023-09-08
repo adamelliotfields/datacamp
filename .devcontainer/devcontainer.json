@@ -1,0 +1,19 @@
+{
+  "name": "datacamp",
+  "image": "mcr.microsoft.com/devcontainers/python:3",
+  // "waitFor": "updateContentCommand",
+  // "updateContentCommand": "make",
+  "forwardPorts": [8888],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mechatroner.rainbow-csv",
+        "ms-python.black-formatter",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-powertoys",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  }
+}

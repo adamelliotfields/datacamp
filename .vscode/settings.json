@@ -1,0 +1,14 @@
+{
+  "editor.rulers": [99],
+  "jupyter.askForKernelRestart": false,
+  "notebook.formatOnSave.enabled": true,
+  "python.terminal.activateEnvironment": false,
+  "[makefile]": {
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": false
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  }
+}
