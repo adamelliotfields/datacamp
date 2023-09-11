@@ -18,9 +18,9 @@ make jupyter
 
   * [Introduction to Python](./notebooks/courses/introduction_to_python/notebook.ipynb)
   * [Intermediate Python](./notebooks/courses/intermediate_python/notebook.ipynb)
-  * [Data Manipulation with Pandas](./notebooks/courses/data_manipulation_with_pandas/notebook.ipynb)
+  * [Data Manipulation with `pandas`](./notebooks/courses/data_manipulation_with_pandas/notebook.ipynb)
+  * [Merging Data with `pandas`](./notebooks/courses/merging_data_with_pandas/notebook.ipynb)
 
 ## Projects
 
   * [Investigating Netflix Movies](./notebooks/projects/investigating_netflix_movies/notebook.ipynb)
-  * [World's Oldest Businesses](./notebooks/projects/worlds_oldest_businesses/notebook.ipynb)
