@@ -16,6 +16,7 @@ make jupyter
 
 ## Courses
 
+  * [Introduction to Statistics](./notebooks/courses/introduction_to_statistics/notebook.ipynb)
   * [Introduction to Python](./notebooks/courses/introduction_to_python/notebook.ipynb)
   * [Intermediate Python](./notebooks/courses/intermediate_python/notebook.ipynb)
   * [Data Manipulation with `pandas`](./notebooks/courses/data_manipulation_with_pandas/notebook.ipynb)
