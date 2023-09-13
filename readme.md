@@ -16,11 +16,24 @@ make jupyter
 
 ## Courses
 
-  * [Introduction to Statistics](./notebooks/courses/introduction_to_statistics/notebook.ipynb)
+### Data Engineering
+
   * [Introduction to Python](./notebooks/courses/introduction_to_python/notebook.ipynb)
   * [Intermediate Python](./notebooks/courses/intermediate_python/notebook.ipynb)
+
+### Data Science
+
   * [Data Manipulation with `pandas`](./notebooks/courses/data_manipulation_with_pandas/notebook.ipynb)
   * [Merging Data with `pandas`](./notebooks/courses/merging_data_with_pandas/notebook.ipynb)
+  * [Python Data Science Toolbox](./notebooks/courses/python_data_science_toolbox/notebook.ipynb)
+
+### Machine Learning
+
+  * [Linear Classifiers in Python](https://app.datacamp.com/learn/courses/linear-classifiers-in-python)
+
+### Miscellaneous
+
+  * [Introduction to Statistics](./notebooks/courses/introduction_to_statistics/notebook.ipynb)
 
 ## Projects
 
