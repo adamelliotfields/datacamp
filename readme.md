@@ -16,10 +16,14 @@ make jupyter
 
 ## Courses
 
-### Data Engineering
+### Python Programming
 
   * [Introduction to Python](./notebooks/courses/introduction_to_python/notebook.ipynb)
   * [Intermediate Python](./notebooks/courses/intermediate_python/notebook.ipynb)
+
+### Data Engineering
+
+  * [Database Design](./notebooks/courses/database_design/notebook.ipynb)
 
 ### Data Science
 
