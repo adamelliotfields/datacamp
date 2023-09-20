@@ -23,6 +23,7 @@ make jupyter
 
 ### Data Engineering
 
+  * [Intermediate SQL](./notebooks/courses/intermediate_sql/notebook.ipynb)
   * [Database Design](./notebooks/courses/database_design/notebook.ipynb)
 
 ### Data Science
