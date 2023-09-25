@@ -40,6 +40,7 @@ make jupyter
 ### Miscellaneous
 
   * [Introduction to Statistics](./notebooks/courses/introduction_to_statistics/notebook.ipynb)
+  * [Introduction to NumPy](./notebooks/courses/introduction_to_numpy/notebook.ipynb)
 
 ## Projects
 
