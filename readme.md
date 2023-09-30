@@ -21,6 +21,7 @@ make jupyter
   * [Introduction to Python](./notebooks/courses/introduction_to_python/notebook.ipynb)
   * [Intermediate Python](./notebooks/courses/intermediate_python/notebook.ipynb)
   * [Dates and Times in Python](./notebooks/courses/dates_and_times_in_python/notebook.ipynb)
+  * [Regular Expressions in Python](./notebooks/courses/regular_expressions_in_python/notebook.ipynb)
 
 ### Data Engineering
 
