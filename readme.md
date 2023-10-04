@@ -23,6 +23,7 @@ make jupyter
   * [Dates and Times in Python](./notebooks/courses/dates_and_times_in_python/notebook.ipynb)
   * [Regular Expressions in Python](./notebooks/courses/regular_expressions_in_python/notebook.ipynb)
   * [Unit Testing in Python](./notebooks/courses/unit_testing_in_python/notebook.ipynb)
+  * [Object-Oriented Programming in Python](./notebooks/courses/oop_in_python/notebook.ipynb)
 
 ### Data Engineering
 
