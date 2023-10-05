@@ -24,6 +24,7 @@ make jupyter
   * [Regular Expressions in Python](./notebooks/courses/regular_expressions_in_python/notebook.ipynb)
   * [Unit Testing in Python](./notebooks/courses/unit_testing_in_python/notebook.ipynb)
   * [Object-Oriented Programming in Python](./notebooks/courses/oop_in_python/notebook.ipynb)
+  * [Data Structures and Algorithms in Python](./notebooks/courses/dsa_in_python/notebook.ipynb)
 
 ### Data Engineering
 
