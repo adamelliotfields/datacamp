@@ -1,6 +1,6 @@
 {
   "name": "datacamp",
-  "image": "mcr.microsoft.com/devcontainers/python:3",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
   // "waitFor": "updateContentCommand",
   // "updateContentCommand": "make",
   "forwardPorts": [8888],
