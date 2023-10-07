@@ -31,6 +31,7 @@ make jupyter
   * [Intermediate SQL](./notebooks/courses/intermediate_sql/notebook.ipynb)
   * [Joining Data in SQL](./notebooks/courses/joining_data_in_sql/notebook.ipynb)
   * [Database Design](./notebooks/courses/database_design/notebook.ipynb)
+  * [Importing Data in Python](./notebooks/courses/importing_data_in_python/notebook.ipynb)
 
 ### Data Science
 
