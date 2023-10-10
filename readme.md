@@ -1,6 +1,7 @@
 # datacamp
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/adamelliotfields/datacamp?machine=basicLinux32gb&devcontainer_path=.devcontainer/devcontainer.json)
+[![Launch Codespace](https://img.shields.io/badge/launch-codespace-24292E?logo=github)](https://github.com/codespaces/new/adamelliotfields/datacamp?machine=basicLinux32gb&devcontainer_path=.devcontainer/devcontainer.json)
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adamelliotfields/datacamp/main)
 
 ## Usage
 
@@ -32,6 +33,7 @@ make jupyter
   * [Joining Data in SQL](./notebooks/courses/joining_data_in_sql/notebook.ipynb)
   * [Database Design](./notebooks/courses/database_design/notebook.ipynb)
   * [Importing Data in Python](./notebooks/courses/importing_data_in_python/notebook.ipynb)
+  * [Data Ingestion with `pandas`](./notebooks/courses/data_ingestion_with_pandas/notebook.ipynb)
 
 ### Data Science
 
@@ -51,3 +53,28 @@ make jupyter
 ## Projects
 
   * [Investigating Netflix Movies](./notebooks/projects/investigating_netflix_movies/notebook.ipynb)
+
+## Notes
+
+### Getting Files from DataCamp
+
+The datasets linked in the course descriptions are often times not the same as the ones used in the course. This was extremely frustrating until I found [file.io](https://file.io). You could also do something similar with [localtunnel.me](https://localtunnel.me) or [tunnelto.dev](https://tunnelto.dev).
+
+You just have to use `!` to run a shell command from within whatever exercise's IPython you're in:
+
+```ipython
+# the `@` means "the contents of this file"
+In [1]: !curl -F 'file=@course_dataset.csv' https://file.io
+```
+
+Which should return something like this:
+
+```json
+{ "success":true, "link":"https://file.io/ATC77VxxTsAZ" }
+```
+
+So then you can just use `wget` to download the file wherever you want:
+
+```bash
+wget https://file.io/ATC77VxxTsAZ -O course_dataset.csv
+```
