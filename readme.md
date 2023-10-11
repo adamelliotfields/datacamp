@@ -53,6 +53,7 @@ make jupyter
 ## Projects
 
   * [Investigating Netflix Movies](./notebooks/projects/investigating_netflix_movies/notebook.ipynb)
+  * [World's Oldest Businesses](./notebooks/projects/worlds_oldest_businesses/notebook.ipynb)
 
 ## Notes
 
