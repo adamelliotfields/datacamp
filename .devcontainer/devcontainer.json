@@ -1,8 +1,6 @@
 {
   "name": "datacamp",
-  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
-  // "waitFor": "updateContentCommand",
-  // "updateContentCommand": "make",
+  "image": "mcr.microsoft.com/devcontainers/universal:2-focal",
   "forwardPorts": [8888],
   "customizations": {
     "vscode": {
