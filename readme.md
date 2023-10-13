@@ -40,6 +40,7 @@ make jupyter
   * [Data Manipulation with `pandas`](./notebooks/courses/data_manipulation_with_pandas/notebook.ipynb)
   * [Merging Data with `pandas`](./notebooks/courses/merging_data_with_pandas/notebook.ipynb)
   * [Python Data Science Toolbox](./notebooks/courses/python_data_science_toolbox/notebook.ipynb)
+  * [Statistics in Python](./notebooks/courses/statistics_in_python/notebook.ipynb)
 
 ### Machine Learning
 
