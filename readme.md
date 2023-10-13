@@ -64,9 +64,9 @@ The datasets linked in the course descriptions are often times not the same as t
 
 You just have to use `!` to run a shell command from within whatever exercise's IPython you're in:
 
-```ipython
+```py
 # the `@` means "the contents of this file"
-In [1]: !curl -F 'file=@course_dataset.csv' https://file.io
+!curl -F 'file=@course_dataset.csv' https://file.io
 ```
 
 Which should return something like this:
