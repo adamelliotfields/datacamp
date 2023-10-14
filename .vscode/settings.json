@@ -1,8 +1,6 @@
 {
   "editor.rulers": [99],
-  "jupyter.askForKernelRestart": false,
   "notebook.formatOnSave.enabled": true,
-  "python.terminal.activateEnvironment": false,
   "[makefile]": {
     "editor.detectIndentation": false,
     "editor.insertSpaces": false

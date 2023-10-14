@@ -7,12 +7,33 @@
 
 See [`Makefile`](./Makefile).
 
+**Local**
+
 ```bash
-# this installs dependencies
+# create virtual env
+make venv
+
+# activate
+source venv/bin/activate
+
+# install dependencies
+make pip
+
+# run the lab server (venv must be activated)
 make
 
-# this runs the server (optional)
-make jupyter
+# exit virtual env
+deactivate
+```
+
+**Codespace**
+
+```bash
+# install dependencies (no need for venv in container)
+make pip
+
+# run the server
+make
 ```
 
 ## Courses
@@ -54,7 +75,8 @@ make jupyter
 ## Projects
 
   * [Investigating Netflix Movies](./notebooks/projects/investigating_netflix_movies/notebook.ipynb)
-  * [World's Oldest Businesses](./notebooks/projects/worlds_oldest_businesses/notebook.ipynb)
+  * [World's Oldest Businesses (SQL)](./notebooks/projects/worlds_oldest_businesses_sql/notebook.ipynb)
+  * [World's Oldest Businesses (Python)](./notebooks/projects/worlds_oldest_businesses_python/notebook.ipynb)
 
 ## Notes
 
