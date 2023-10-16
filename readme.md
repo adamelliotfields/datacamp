@@ -1,7 +1,17 @@
-# datacamp
+<div align="center">
+  <!-- Illustration of a tranquil camping scene under a starry night. The main focus is a campfire with flames composed of binary digits and pixelated embers with a tent pitched nearby. The backdrop is a clear sky with floating clouds. -->
+  <img src="./datacamp.jpg" width="270" alt="A data campfire" />
+  <h1 align="center"><code>datacamp</code></h1>
+  <a href="https://github.com/codespaces/new/adamelliotfields/datacamp?machine=basicLinux32gb&devcontainer_path=.devcontainer/devcontainer.json">
+    <img src="https://img.shields.io/badge/launch-codespace-24292E?logo=github" alt="Launch Codespace" />
+  </a>
+  <a href="https://mybinder.org/v2/gh/adamelliotfields/datacamp/main">
+    <img src="https://mybinder.org/badge_logo.svg" alt="Launch Binder" />
+  </a>
+</div>
+<br />
 
-[![Launch Codespace](https://img.shields.io/badge/launch-codespace-24292E?logo=github)](https://github.com/codespaces/new/adamelliotfields/datacamp?machine=basicLinux32gb&devcontainer_path=.devcontainer/devcontainer.json)
-[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adamelliotfields/datacamp/main)
+My notes and projects from [DataCamp](https://www.datacamp.com).
 
 ## Usage
 
@@ -60,8 +70,9 @@ make
 
   * [Data Manipulation with `pandas`](./notebooks/courses/data_manipulation_with_pandas/notebook.ipynb)
   * [Merging Data with `pandas`](./notebooks/courses/merging_data_with_pandas/notebook.ipynb)
-  * [Python Data Science Toolbox](./notebooks/courses/python_data_science_toolbox/notebook.ipynb)
   * [Statistics in Python](./notebooks/courses/statistics_in_python/notebook.ipynb)
+  * [Introduction to `matplotlib`](./notebooks/courses/introduction_to_matplotlib/notebook.ipynb)
+  * [Python Data Science Toolbox](./notebooks/courses/python_data_science_toolbox/notebook.ipynb)
 
 ### Machine Learning
 
@@ -101,4 +112,13 @@ So then you can just use `wget` to download the file wherever you want:
 
 ```bash
 wget https://file.io/ATC77VxxTsAZ -O course_dataset.csv
+```
+
+### Converting Markdown to Notebooks
+
+I find it easier to take notes in Markdown and then convert to a notebook for cell execution. I use [jupytext](https://github.com/mwouts/jupytext) to do this.
+
+```bash
+pipx install jupytext
+jupytext --opt=split_at_heading=true --from=md:markdown --to=ipynb notebook.md
 ```

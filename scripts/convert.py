@@ -1,4 +1,4 @@
-#!/usr/bin/env poetry run python
+#!venv/bin/python
 import sys
 import pandas as pd
 
