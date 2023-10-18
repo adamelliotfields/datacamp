@@ -73,6 +73,7 @@ make
   * [Statistics in Python](./notebooks/courses/statistics_in_python/notebook.ipynb)
   * [Introduction to `matplotlib`](./notebooks/courses/introduction_to_matplotlib/notebook.ipynb)
   * [Introduction to `seaborn`](./notebooks/courses/introduction_to_seaborn/notebook.ipynb)
+  * [Intermediate `seaborn`](./notebooks/courses/intermediate_seaborn/notebook.ipynb)
   * [Python Data Science Toolbox](./notebooks/courses/python_data_science_toolbox/notebook.ipynb)
 
 ### Machine Learning
