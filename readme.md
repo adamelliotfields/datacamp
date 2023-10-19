@@ -90,6 +90,7 @@ make
   * [Investigating Netflix Movies](./notebooks/projects/investigating_netflix_movies/notebook.ipynb)
   * [World's Oldest Businesses (SQL)](./notebooks/projects/worlds_oldest_businesses_sql/notebook.ipynb)
   * [World's Oldest Businesses (Python)](./notebooks/projects/worlds_oldest_businesses_python/notebook.ipynb)
+  * [The Android App Market on Google Play](./notebooks/projects/android_app_market/notebook.ipynb)
 
 ## Notes
 
