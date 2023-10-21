@@ -88,6 +88,7 @@ make
   * [World's Oldest Businesses (SQL)](./notebooks/projects/worlds_oldest_businesses_sql/notebook.ipynb)
   * [World's Oldest Businesses (Python)](./notebooks/projects/worlds_oldest_businesses_python/notebook.ipynb)
   * [The Android App Market on Google Play](./notebooks/projects/android_app_market/notebook.ipynb)
+  * [A Visual History of Nobel Prize Winners](./notebooks/projects/nobel_prize_history/notebook.ipynb)
 
 ## Notes
 
