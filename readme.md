@@ -63,22 +63,19 @@ make
   * [Intermediate SQL](./notebooks/courses/intermediate_sql/notebook.ipynb)
   * [Joining Data in SQL](./notebooks/courses/joining_data_in_sql/notebook.ipynb)
   * [Database Design](./notebooks/courses/database_design/notebook.ipynb)
-  * [Importing Data in Python](./notebooks/courses/importing_data_in_python/notebook.ipynb)
+  * [Data Importing in Python](./notebooks/courses/data_importing_in_python/notebook.ipynb)
   * [Data Ingestion with `pandas`](./notebooks/courses/data_ingestion_with_pandas/notebook.ipynb)
 
 ### Data Science
 
   * [Data Manipulation with `pandas`](./notebooks/courses/data_manipulation_with_pandas/notebook.ipynb)
-  * [Merging Data with `pandas`](./notebooks/courses/merging_data_with_pandas/notebook.ipynb)
+  * [Data Merging with `pandas`](./notebooks/courses/data_merging_with_pandas/notebook.ipynb)
   * [Statistics in Python](./notebooks/courses/statistics_in_python/notebook.ipynb)
   * [Introduction to `matplotlib`](./notebooks/courses/introduction_to_matplotlib/notebook.ipynb)
   * [Introduction to `seaborn`](./notebooks/courses/introduction_to_seaborn/notebook.ipynb)
   * [Intermediate `seaborn`](./notebooks/courses/intermediate_seaborn/notebook.ipynb)
   * [Python Data Science Toolbox](./notebooks/courses/python_data_science_toolbox/notebook.ipynb)
-
-### Machine Learning
-
-  * [Linear Classifiers in Python](https://app.datacamp.com/learn/courses/linear-classifiers-in-python)
+  * [Data Preprocessing in Python](./notebooks/courses/data_preprocessing_in_python/notebook.ipynb)
 
 ### Miscellaneous
 
