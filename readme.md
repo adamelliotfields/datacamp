@@ -75,6 +75,7 @@ make
   * [Introduction to `seaborn`](./notebooks/courses/introduction_to_seaborn/notebook.ipynb)
   * [Intermediate `seaborn`](./notebooks/courses/intermediate_seaborn/notebook.ipynb)
   * [Python Data Science Toolbox](./notebooks/courses/python_data_science_toolbox/notebook.ipynb)
+  * [Categorical Data in Python](./notebooks/courses/categorical_data_in_python/notebook.ipynb)
   * [Data Preprocessing in Python](./notebooks/courses/data_preprocessing_in_python/notebook.ipynb)
 
 ### Miscellaneous
