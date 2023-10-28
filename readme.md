@@ -77,6 +77,7 @@ make
   * [Python Data Science Toolbox](./notebooks/courses/python_data_science_toolbox/notebook.ipynb)
   * [Categorical Data in Python](./notebooks/courses/categorical_data_in_python/notebook.ipynb)
   * [Data Preprocessing in Python](./notebooks/courses/data_preprocessing_in_python/notebook.ipynb)
+  * [Introduction to `statsmodels`](./notebooks/courses/introduction_to_statsmodels/notebook.ipynb)
 
 ### Miscellaneous
 
