@@ -79,6 +79,7 @@ make
   * [Data Preprocessing in Python](./notebooks/courses/data_preprocessing_in_python/notebook.ipynb)
   * [Introduction to `statsmodels`](./notebooks/courses/introduction_to_statsmodels/notebook.ipynb)
   * [Sampling in Python](./notebooks/courses/sampling_in_python/notebook.ipynb)
+  * [Hypothesis Testing in Python](./notebooks/courses/hypothesis_testing_in_python/notebook.ipynb)
 
 ### Electives
 
