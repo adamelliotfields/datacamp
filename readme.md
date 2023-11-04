@@ -78,8 +78,9 @@ make
   * [Categorical Data in Python](./notebooks/courses/categorical_data_in_python/notebook.ipynb)
   * [Data Preprocessing in Python](./notebooks/courses/data_preprocessing_in_python/notebook.ipynb)
   * [Introduction to `statsmodels`](./notebooks/courses/introduction_to_statsmodels/notebook.ipynb)
+  * [Sampling in Python](./notebooks/courses/sampling_in_python/notebook.ipynb)
 
-### Miscellaneous
+### Electives
 
   * [Introduction to Statistics](./notebooks/courses/introduction_to_statistics/notebook.ipynb)
   * [Introduction to NumPy](./notebooks/courses/introduction_to_numpy/notebook.ipynb)
