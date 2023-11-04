@@ -13,6 +13,7 @@ numpy==1.26.0
 openai==0.28.1
 openpyxl==3.1.2
 pandas==2.1.1
+pingouin==0.5.3
 plotly==5.17.0
 pyarrow==13.0.0
 pytest==7.4.2
@@ -21,6 +22,6 @@ recordlinkage==0.16.0
 scipy==1.11.3
 seaborn==0.13.0
 sqlalchemy==2.0.21
-statsmodels=0.14.0
+statsmodels==0.14.0
 thefuzz==0.20.0
 toml==0.10.2
