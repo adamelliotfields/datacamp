@@ -13,37 +13,11 @@
 
 My notes and projects from [DataCamp](https://www.datacamp.com).
 
-## Usage
-
-See [`Makefile`](./Makefile).
-
-**Local**
+## Installation
 
 ```bash
-# create virtual env
-make venv
-
-# activate
-source venv/bin/activate
-
-# install dependencies
-make pip
-
-# run the lab server (venv must be activated)
-make
-
-# exit virtual env
-deactivate
-```
-
-**Codespace**
-
-```bash
-# install dependencies (no need for venv in container)
-make pip
-
-# run the server
-make
+python -m venv venv
+venv/bin/pip install -r requirements.txt
 ```
 
 ## Courses
@@ -92,6 +66,7 @@ make
   * [World's Oldest Businesses (Python)](./notebooks/projects/worlds_oldest_businesses_python/notebook.ipynb)
   * [The Android App Market on Google Play](./notebooks/projects/android_app_market/notebook.ipynb)
   * [A Visual History of Nobel Prize Winners](./notebooks/projects/nobel_prize_history/notebook.ipynb)
+  * [Dr. Semmelweis and the Discovery of Handwashing](./notebooks/projects/discovery_of_handwashing/notebook.ipynb)
 
 ## Notes
 
