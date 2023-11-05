@@ -65,12 +65,13 @@ make
   * [Database Design](./notebooks/courses/database_design/notebook.ipynb)
   * [Data Importing in Python](./notebooks/courses/data_importing_in_python/notebook.ipynb)
   * [Data Ingestion with `pandas`](./notebooks/courses/data_ingestion_with_pandas/notebook.ipynb)
-
-### Data Science
-
   * [Data Manipulation with `pandas`](./notebooks/courses/data_manipulation_with_pandas/notebook.ipynb)
   * [Data Merging with `pandas`](./notebooks/courses/data_merging_with_pandas/notebook.ipynb)
+
+### Data Science
+  * [Introduction to Statistics](./notebooks/courses/introduction_to_statistics/notebook.ipynb)
   * [Statistics in Python](./notebooks/courses/statistics_in_python/notebook.ipynb)
+  * [Introduction to `numpy`](./notebooks/courses/introduction_to_numpy/notebook.ipynb)
   * [Introduction to `matplotlib`](./notebooks/courses/introduction_to_matplotlib/notebook.ipynb)
   * [Introduction to `seaborn`](./notebooks/courses/introduction_to_seaborn/notebook.ipynb)
   * [Intermediate `seaborn`](./notebooks/courses/intermediate_seaborn/notebook.ipynb)
@@ -81,10 +82,8 @@ make
   * [Sampling in Python](./notebooks/courses/sampling_in_python/notebook.ipynb)
   * [Hypothesis Testing in Python](./notebooks/courses/hypothesis_testing_in_python/notebook.ipynb)
 
-### Electives
-
-  * [Introduction to Statistics](./notebooks/courses/introduction_to_statistics/notebook.ipynb)
-  * [Introduction to NumPy](./notebooks/courses/introduction_to_numpy/notebook.ipynb)
+### Machine Learning
+  * [Supervised Learning with `scikit-learn`](./notebooks/courses/supervised_learning_with_sklearn/notebook.ipynb)
 
 ## Projects
 
