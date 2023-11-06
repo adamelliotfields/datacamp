@@ -18,7 +18,7 @@ python-dateutil==2.8.2
 recordlinkage==0.16.0
 scipy==1.11.3
 seaborn==0.13.0
-sqlalchemy==2.0.21
+sqlalchemy==2.0.22
 statsmodels==0.14.0
 thefuzz==0.20.0
 toml==0.10.2
