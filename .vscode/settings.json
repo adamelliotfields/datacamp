@@ -1,6 +1,7 @@
 {
   "editor.rulers": [99],
   "notebook.formatOnSave.enabled": true,
+  "ruff.organizeImports": false,
   "[makefile]": {
     "editor.detectIndentation": false,
     "editor.insertSpaces": false
@@ -8,6 +9,9 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": true
+    }
   }
 }

@@ -5,6 +5,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "charliermarsh.ruff",
         "mechatroner.rainbow-csv",
         "ms-python.black-formatter",
         "ms-python.python",
