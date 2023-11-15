@@ -59,6 +59,7 @@ venv/bin/pip install -r requirements.txt
 ### Machine Learning
   * [Supervised Learning with `scikit-learn`](./notebooks/courses/supervised_learning_with_sklearn/notebook.ipynb)
   * [Unsupervised Learning with `scikit-learn`](./notebooks/courses/unsupervised_learning_with_sklearn/notebook.ipynb)
+  * [Tree-based Models in Python](./notebooks/courses/tree_models_in_python/notebook.ipynb)
 
 ## Projects
 
