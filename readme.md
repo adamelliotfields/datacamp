@@ -56,6 +56,9 @@ venv/bin/pip install -r requirements.txt
   * [Sampling in Python](./notebooks/courses/sampling_in_python/notebook.ipynb)
   * [Hypothesis Testing in Python](./notebooks/courses/hypothesis_testing_in_python/notebook.ipynb)
 
+### Time Series
+  * [Time Series Analysis in Python](./notebooks/courses/time_series_analysis_in_python/notebook.ipynb)
+
 ### Machine Learning
   * [Supervised Learning with `scikit-learn`](./notebooks/courses/supervised_learning_with_sklearn/notebook.ipynb)
   * [Unsupervised Learning with `scikit-learn`](./notebooks/courses/unsupervised_learning_with_sklearn/notebook.ipynb)
