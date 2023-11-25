@@ -16,6 +16,10 @@ My notes and projects from [DataCamp](https://www.datacamp.com).
 ## Installation
 
 ```bash
+# for PyICU
+brew install pkg-config icu4c
+export PKG_CONFIG_PATH="$(brew --prefix icu4c)/lib/pkgconfig"
+
 python -m venv venv
 venv/bin/pip install -r requirements.txt
 ```
@@ -56,14 +60,17 @@ venv/bin/pip install -r requirements.txt
   * [Sampling in Python](./notebooks/courses/sampling_in_python/notebook.ipynb)
   * [Hypothesis Testing in Python](./notebooks/courses/hypothesis_testing_in_python/notebook.ipynb)
 
-### Time Series
-  * [Time Series Analysis in Python](./notebooks/courses/time_series_analysis_in_python/notebook.ipynb)
-
 ### Machine Learning
   * [Supervised Learning with `scikit-learn`](./notebooks/courses/supervised_learning_with_sklearn/notebook.ipynb)
   * [Unsupervised Learning with `scikit-learn`](./notebooks/courses/unsupervised_learning_with_sklearn/notebook.ipynb)
   * [Logistic Regression and SVM in Python](./notebooks/courses/logistic_regression_and_svm_in_python/notebook.ipynb)
   * [Tree-based Models in Python](./notebooks/courses/tree_models_in_python/notebook.ipynb)
+
+### Time Series
+  * [Time Series Analysis in Python](./notebooks/courses/time_series_analysis_in_python/notebook.ipynb)
+
+### Natural Language Processing
+  * [Introduction to NLP](./notebooks/courses/introduction_to_nlp/notebook.ipynb)
 
 ## Projects
 
