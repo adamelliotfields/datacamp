@@ -72,6 +72,9 @@ venv/bin/pip install -r requirements.txt
 ### Natural Language Processing
   * [Introduction to NLP](./notebooks/courses/introduction_to_nlp/notebook.ipynb)
 
+### Deep Learning
+  * [Introduction to Deep Learning](./notebooks/courses/introduction_to_deep_learning/notebook.ipynb)
+
 ## Projects
 
   * [Investigating Netflix Movies](./notebooks/projects/investigating_netflix_movies/notebook.ipynb)
