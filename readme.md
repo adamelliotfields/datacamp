@@ -65,6 +65,7 @@ venv/bin/pip install -r requirements.txt
   * [Unsupervised Learning with `scikit-learn`](./notebooks/courses/unsupervised_learning_with_sklearn/notebook.ipynb)
   * [Logistic Regression and SVM in Python](./notebooks/courses/logistic_regression_and_svm_in_python/notebook.ipynb)
   * [Tree-based Models in Python](./notebooks/courses/tree_models_in_python/notebook.ipynb)
+  * [Extreme Gradient Boosting with `xgboost`](./notebooks/courses/extreme_gradient_boosting_with_xgboost/notebook.ipynb)
 
 ### Time Series
   * [Time Series Analysis in Python](./notebooks/courses/time_series_analysis_in_python/notebook.ipynb)
@@ -76,44 +77,9 @@ venv/bin/pip install -r requirements.txt
   * [Introduction to Deep Learning](./notebooks/courses/introduction_to_deep_learning/notebook.ipynb)
 
 ## Projects
-
   * [Investigating Netflix Movies](./notebooks/projects/investigating_netflix_movies/notebook.ipynb)
   * [World's Oldest Businesses (SQL)](./notebooks/projects/worlds_oldest_businesses_sql/notebook.ipynb)
   * [World's Oldest Businesses (Python)](./notebooks/projects/worlds_oldest_businesses_python/notebook.ipynb)
   * [The Android App Market on Google Play](./notebooks/projects/android_app_market/notebook.ipynb)
   * [A Visual History of Nobel Prize Winners](./notebooks/projects/nobel_prize_history/notebook.ipynb)
   * [Dr. Semmelweis and the Discovery of Handwashing](./notebooks/projects/discovery_of_handwashing/notebook.ipynb)
-
-## Notes
-
-### Getting Files from DataCamp
-
-The datasets linked in the course descriptions are often times not the same as the ones used in the course. This was extremely frustrating until I found [file.io](https://file.io). You could also do something similar with [localtunnel.me](https://localtunnel.me) or [tunnelto.dev](https://tunnelto.dev).
-
-You just have to use `!` to run a shell command from within whatever exercise's IPython you're in:
-
-```py
-# the `@` means "the contents of this file"
-!curl -F 'file=@course_dataset.csv' https://file.io
-```
-
-Which should return something like this:
-
-```json
-{ "success":true, "link":"https://file.io/ATC77VxxTsAZ" }
-```
-
-So then you can just use `wget` to download the file wherever you want:
-
-```bash
-wget https://file.io/ATC77VxxTsAZ -O course_dataset.csv
-```
-
-### Converting Markdown to Notebooks
-
-I find it easier to take notes in Markdown and then convert to a notebook for cell execution. I use [jupytext](https://github.com/mwouts/jupytext) to do this.
-
-```bash
-pipx install jupytext
-jupytext --opt=split_at_heading=true --from=md:markdown --to=ipynb notebook.md
-```
