@@ -27,11 +27,15 @@ pip install -r requirements_*.txt
 
 ## Contents
 
+The repo is organized by [track](https://www.datacamp.com/tracks/skill):
+
 * [Python Programming](./notebooks/python/readme.md)
 * [Data Engineering](./notebooks/data_engineering/readme.md)
 * [Data Science](./notebooks/data_science/readme.md)
 * [Machine Learning](./notebooks/machine_learning/readme.md)
 * [Deep Learning (TensorFlow)](./notebooks/deep_learning_tensorflow/readme.md)
 * [Natural Language Processing](./notebooks/nlp/readme.md)
-* [Projects](./notebooks/projects/readme.md)
 * [Time Series](./notebooks/time_series/readme.md)
+* [Finance](./notebooks/finance/readme.md)
+
+As well as some [projects](./notebooks/projects/readme.md).
