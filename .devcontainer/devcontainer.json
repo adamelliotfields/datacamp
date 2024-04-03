@@ -1,13 +1,12 @@
 {
   "name": "datacamp",
-  "image": "mcr.microsoft.com/devcontainers/universal:2-focal",
+  "image": "mcr.microsoft.com/devcontainers/python:3-bookworm",
   "forwardPorts": [8888],
   "customizations": {
     "vscode": {
       "extensions": [
         "charliermarsh.ruff",
         "mechatroner.rainbow-csv",
-        "ms-python.black-formatter",
         "ms-python.python",
         "ms-toolsai.jupyter",
         "tamasfe.even-better-toml"
