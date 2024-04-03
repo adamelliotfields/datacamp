@@ -6,6 +6,7 @@ jupysql==0.10.2
 line-profiler==4.1.1
 matplotlib==3.8.0
 numpy==1.26.0
+numpy-financial==1.0.0
 openpyxl==3.1.2
 pandas==2.1.1
 pingouin==0.5.3
