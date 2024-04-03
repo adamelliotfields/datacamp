@@ -1,17 +1,21 @@
 {
   "editor.rulers": [99],
   "notebook.formatOnSave.enabled": true,
-  "ruff.organizeImports": false,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll.ruff": "explicit",
+    "notebook.source.organizeImports.ruff": "never"
+  },
   "[makefile]": {
     "editor.detectIndentation": false,
     "editor.insertSpaces": false
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
     "editor.tabSize": 4,
     "editor.codeActionsOnSave": {
-      "source.fixAll.ruff": true
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "never"
     }
   }
 }

@@ -1,0 +1,8 @@
+extend-include = ["*.ipynb"]
+line-length = 99
+
+[lint.per-file-ignores]
+"*.ipynb" = [
+  # https://docs.astral.sh/ruff/rules/module-import-not-at-top-of-file/
+  "E402"
+]
