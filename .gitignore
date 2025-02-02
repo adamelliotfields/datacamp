@@ -4,3 +4,7 @@
 __pycache__/
 .venv/
 .DS_Store
+
+# imdb dataset
+aclImdb/
+aclImdb_v1.tar.gz
