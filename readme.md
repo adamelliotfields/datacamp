@@ -12,9 +12,43 @@
 
 ## Installation
 
-Each notebook can be run directly in [Colab](https://colab.research.google.com). Any required data files will be fetched remotely.
+For [dtreeviz](https://github.com/parrt/dtreeviz), you need [Graphviz](https://graphviz.org):
 
-Alternatively, you can run them locally in VS Code or a Codespace:
+```sh
+# mac
+brew install graphviz
+
+# linux
+sudo apt install graphviz
+```
+
+For [PyICU](https://gitlab.pyicu.org/main/pyicu), you need the C library:
+
+```bash
+# mac
+brew install pkg-config icu4c
+export PKG_CONFIG_PATH="$(brew --prefix icu4c)/lib/pkgconfig"
+
+# linux
+sudo apt install libicu-dev
+```
+
+For [TA-Lib](https://ta-lib.org), you need the C library:
+
+```sh
+# mac
+brew install ta-lib
+
+# linux
+wget https://github.com/TA-Lib/ta-lib/releases/download/v0.4.0/ta-lib-0.4.0-src.tar.gz
+tar -xvf ta-lib-0.4.0-src.tar.gz
+cd ta-lib
+./configure --prefix=/usr
+make
+sudo make install
+```
+
+Then you can install with pip:
 
 ```sh
 python -m venv .venv
@@ -24,6 +58,10 @@ pip install -r requirements.txt
 # optional
 pip install -r requirements_*.txt
 ```
+
+## Usage
+
+Each notebook can be run directly in [Colab](https://colab.research.google.com). Any required data files will be fetched remotely. Alternatively, you can run them locally in VS Code or JupyterLab.
 
 ## Contents
 

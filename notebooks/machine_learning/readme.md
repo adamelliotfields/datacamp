@@ -1,12 +1,5 @@
 # DataCamp Machine Learning
 
-## Installation
-
-```sh
-# for dtreeviz
-brew install graphviz
-```
-
 ## Courses
 
 * [Supervised Learning with `scikit-learn`](./supervised_learning_with_sklearn/notebook.ipynb)
