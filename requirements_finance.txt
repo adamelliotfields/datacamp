@@ -1,2 +1,0 @@
-numpy-financial==1.0.0
-ta-lib==0.4.28

@@ -1,2 +1,0 @@
-dtreeviz==2.2.2
-xgboost==2.0.2
