@@ -61,11 +61,9 @@ pip install -r requirements_*.txt
 
 ## Usage
 
-Each notebook can be run directly in [Colab](https://colab.research.google.com). Any required data files will be fetched remotely. Alternatively, you can run them locally in VS Code or JupyterLab.
+Each notebook can be run directly in [Colab](https://colab.research.google.com). Any required data files will be fetched remotely. Or you can just run them locally in VS Code or JupyterLab.
 
 ## Contents
-
-The repo is organized by [track](https://www.datacamp.com/tracks/skill):
 
 * [Python Programming](./notebooks/python/readme.md)
 * [Data Engineering](./notebooks/data_engineering/readme.md)
@@ -75,5 +73,4 @@ The repo is organized by [track](https://www.datacamp.com/tracks/skill):
 * [Natural Language Processing](./notebooks/nlp/readme.md)
 * [Time Series](./notebooks/time_series/readme.md)
 * [Finance](./notebooks/finance/readme.md)
-
-As well as some [projects](./notebooks/projects/readme.md).
+* [Projects](./notebooks/projects/readme.md).
