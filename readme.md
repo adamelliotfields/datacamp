@@ -2,9 +2,6 @@
   <!-- Illustration of a tranquil camping scene under a starry night. The main focus is a campfire with flames composed of binary digits and pixelated embers with a tent pitched nearby. The backdrop is a clear sky with floating clouds. -->
   <img src="./datacamp.jpg" width="270" alt="A data campfire" />
   <h1 align="center"><code>datacamp</code></h1>
-  <a href="https://github.com/codespaces/new/adamelliotfields/datacamp?machine=basicLinux32gb&devcontainer_path=.devcontainer/devcontainer.json">
-    <img src="https://img.shields.io/badge/launch-codespace-24292E?logo=github" alt="Launch Codespace" />
-  </a>
 </div>
 <br />
 
